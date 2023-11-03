@@ -79,7 +79,7 @@ class MavenIntegrationTest(MavenGeneric, MavenTestReportingMixin):
             parent_work_dir_path=parent_work_dir_path,
             config=config,
             environment=environment,
-            maven_phases_and_goals=['integration-test', 'verify']
+            maven_phases_and_goals=['verify']
         )
 
     @staticmethod
